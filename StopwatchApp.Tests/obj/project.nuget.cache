@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "SXqoBqXFELA=",
+  "success": true,
+  "projectFilePath": "/workspaces/group5_stopwatch/StopwatchApp.Tests/StopwatchApp.Tests.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.applicationinsights/2.22.0/microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testing.extensions.telemetry/1.1.0/microsoft.testing.extensions.telemetry.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions/1.1.0/microsoft.testing.extensions.trxreport.abstractions.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testing.extensions.vstestbridge/1.1.0/microsoft.testing.extensions.vstestbridge.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testing.platform/1.1.0/microsoft.testing.platform.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testing.platform.msbuild/1.1.0/microsoft.testing.platform.msbuild.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mstest.testadapter/3.3.1/mstest.testadapter.3.3.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mstest.testframework/3.3.1/mstest.testframework.3.3.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.25/microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
