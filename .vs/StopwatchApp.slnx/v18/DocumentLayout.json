@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06B53DCE-936A-E94E-F0BC-E89A4E2043EC}|StopwatchApp\\StopwatchApp.csproj|c:\\users\\pc\\source\\repos\\group5_stopwatch\\stopwatchapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06B53DCE-936A-E94E-F0BC-E89A4E2043EC}|StopwatchApp\\StopwatchApp.csproj|solutionrelative:stopwatchapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06B53DCE-936A-E94E-F0BC-E89A4E2043EC}|StopwatchApp\\StopwatchApp.csproj|c:\\users\\pc\\source\\repos\\group5_stopwatch\\stopwatchapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06B53DCE-936A-E94E-F0BC-E89A4E2043EC}|StopwatchApp\\StopwatchApp.csproj|solutionrelative:stopwatchapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\App.xaml",
+              "RelativeDocumentMoniker": "StopwatchApp\\App.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\App.xaml",
+              "RelativeToolTip": "StopwatchApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-25T16:17:16.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "StopwatchApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\MainWindow.xaml",
+              "RelativeToolTip": "StopwatchApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-25T16:16:16.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

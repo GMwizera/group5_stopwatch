@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net8.0-windows7.0": {
+    "net8.0-windows": {
       "Microsoft.ApplicationInsights/2.22.0": {
         "type": "package",
         "dependencies": {
@@ -1283,26 +1283,26 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    "net8.0-windows": [
       "MSTest.TestAdapter >= 3.3.1",
       "MSTest.TestFramework >= 3.3.1",
       "StopwatchApp >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/group5_stopwatch/StopwatchApp.Tests/StopwatchApp.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp.Tests\\StopwatchApp.Tests.csproj",
       "projectName": "StopwatchApp.Tests",
-      "projectPath": "/workspaces/group5_stopwatch/StopwatchApp.Tests/StopwatchApp.Tests.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/group5_stopwatch/StopwatchApp.Tests/obj/",
+      "projectPath": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp.Tests\\StopwatchApp.Tests.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
@@ -1311,11 +1311,12 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "/workspaces/group5_stopwatch/StopwatchApp/StopwatchApp.csproj": {
-              "projectPath": "/workspaces/group5_stopwatch/StopwatchApp/StopwatchApp.csproj"
+            "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\StopwatchApp.csproj": {
+              "projectPath": "C:\\Users\\pc\\source\\repos\\group5_stopwatch\\StopwatchApp\\StopwatchApp.csproj"
             }
           }
         }
@@ -1330,10 +1331,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "dependencies": {
           "MSTest.TestAdapter": {
@@ -1359,15 +1361,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.25, 8.0.25]"
+            "version": "[8.0.28, 8.0.28]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.25, 8.0.25]"
+            "version": "[8.0.28, 8.0.28]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.25, 8.0.25]"
+            "version": "[8.0.28, 8.0.28]"
           }
         ],
         "frameworkReferences": {
@@ -1378,7 +1380,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

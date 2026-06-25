@@ -1,7 +1,7 @@
 <Window x:Class="StopwatchApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Stopwatch" Height="300" Width="320">
+        Title="Stopwatch" Height="195" Width="463">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

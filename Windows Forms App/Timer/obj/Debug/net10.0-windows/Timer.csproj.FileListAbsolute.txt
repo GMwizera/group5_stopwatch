@@ -1,0 +1,16 @@
+C:\Users\pc\source\repos\Timer\Timer\bin\Debug\net10.0-windows\Timer.exe
+C:\Users\pc\source\repos\Timer\Timer\bin\Debug\net10.0-windows\Timer.deps.json
+C:\Users\pc\source\repos\Timer\Timer\bin\Debug\net10.0-windows\Timer.runtimeconfig.json
+C:\Users\pc\source\repos\Timer\Timer\bin\Debug\net10.0-windows\Timer.dll
+C:\Users\pc\source\repos\Timer\Timer\bin\Debug\net10.0-windows\Timer.pdb
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.Form1.resources
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.AssemblyInfo.cs
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.dll
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\refint\Timer.dll
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.pdb
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\Timer.genruntimeconfig.cache
+C:\Users\pc\source\repos\Timer\Timer\obj\Debug\net10.0-windows\ref\Timer.dll
