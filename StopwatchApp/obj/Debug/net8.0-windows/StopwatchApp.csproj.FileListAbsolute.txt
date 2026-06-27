@@ -1,9 +1,0 @@
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/App.baml
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/App.g.cs
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp_MarkupCompile.cache
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.g.resources
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.AssemblyInfoInputs.cache
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.AssemblyInfo.cs
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.csproj.CoreCompileInputs.cache
-/workspaces/group5_stopwatch/StopwatchApp/obj/Debug/net8.0-windows/StopwatchApp.sourcelink.json

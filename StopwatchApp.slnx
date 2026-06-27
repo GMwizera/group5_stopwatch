@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="StopwatchApp.Tests/StopwatchApp.Tests.csproj" />
-  <Project Path="StopwatchApp/StopwatchApp.csproj" />
-</Solution>
