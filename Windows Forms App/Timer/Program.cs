@@ -1,9 +1,13 @@
 namespace Timer
 {
+    /// <summary>
+    /// Holds the program's entry point and starts the Windows Forms application.
+    /// </summary>
     internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        ///  The main entry point for the application. Configures Windows Forms and
+        ///  opens the main <see cref="Form1"/> window.
         /// </summary>
         [STAThread]
         static void Main()

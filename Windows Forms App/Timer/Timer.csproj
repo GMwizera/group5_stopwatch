@@ -6,7 +6,11 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <UseWPF>true</UseWPF>
   </PropertyGroup>
+
+  <!-- The Windows app uses the shared, cross-platform stopwatch logic. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\StopwatchApp\StopwatchApp.csproj" />
+  </ItemGroup>
 
 </Project>

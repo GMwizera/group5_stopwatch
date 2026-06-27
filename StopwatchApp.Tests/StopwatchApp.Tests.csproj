@@ -1,13 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
+    <!-- Plain net8.0 so the tests run on macOS/Linux as well as Windows. -->
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <IsPackable>false</IsPackable>
+    <!-- Allow the net8.0 tests to run on a newer installed runtime (e.g. .NET 10). -->
+    <RollForward>Major</RollForward>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MSTest.TestAdapter" Version="3.3.1" />
     <PackageReference Include="MSTest.TestFramework" Version="3.3.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="../StopwatchApp/StopwatchApp.csproj" />
   </ItemGroup>
 </Project>
