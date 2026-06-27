@@ -1,5 +1,3 @@
 <Solution>
   <Project Path="Timer/Timer.csproj" />
-  <Project Path="../StopwatchApp/StopwatchApp.csproj" />
-  <Project Path="../StopwatchApp.Tests/StopwatchApp.Tests.csproj" />
 </Solution>
