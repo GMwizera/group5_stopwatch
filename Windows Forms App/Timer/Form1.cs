@@ -2,20 +2,12 @@ using StopwatchApp;
 
 namespace Timer
 {
-    /// <summary>
-    /// The main application window. It connects the buttons to the
-    /// <see cref="StopwatchEngine"/> and keeps the on-screen time display and the
-    /// button states in sync with the engine.
-    /// </summary>
+    /// <summary>Main window: wires the buttons to the stopwatch engine and shows the time.</summary>
     public partial class Form1 : Form
     {
-        /// <summary>The stopwatch logic this window controls and displays.</summary>
         private readonly StopwatchEngine _engine;
 
-        /// <summary>
-        /// Builds the window, creates the stopwatch engine, subscribes to its
-        /// tick event and shows the initial "00:00:00" display.
-        /// </summary>
+        /// <summary>Sets up the window and the stopwatch engine.</summary>
         public Form1()
         {
             InitializeComponent();
@@ -27,13 +19,7 @@ namespace Timer
             UpdateButtonStates();
         }
 
-        /// <summary>
-        /// Runs on every engine tick and updates the time label. Because the
-        /// engine's timer may fire on a background thread, the update is marshalled
-        /// back onto the UI thread when required.
-        /// </summary>
-        /// <param name="sender">The engine that raised the event.</param>
-        /// <param name="formattedTime">The current time, already formatted as "HH:MM:SS".</param>
+        /// <summary>Updates the time label on each engine tick.</summary>
         private void OnTimerTick(object? sender, string formattedTime)
         {
             // Marshal to UI thread in case of cross-thread calls
@@ -49,28 +35,28 @@ namespace Timer
             UpdateButtonStates();
         }
 
-        /// <summary>Handles the Start button: starts the stopwatch from zero.</summary>
+        /// <summary>Start button.</summary>
         private void Start_Click(object sender, EventArgs e)
         {
             _engine.Start();
             UpdateButtonStates();
         }
 
-        /// <summary>Handles the Pause button: pauses a running stopwatch.</summary>
+        /// <summary>Pause button.</summary>
         private void Pause_Click(object sender, EventArgs e)
         {
             _engine.Pause();
             UpdateButtonStates();
         }
 
-        /// <summary>Handles the Resume button: continues counting after a pause.</summary>
+        /// <summary>Resume button.</summary>
         private void Resume_Click(object sender, EventArgs e)
         {
             _engine.Resume();
             UpdateButtonStates();
         }
 
-        /// <summary>Handles the Stop button: stops the stopwatch and shows the final time.</summary>
+        /// <summary>Stop button.</summary>
         private void Stop_Click(object sender, EventArgs e)
         {
             string finalTime = _engine.Stop();
@@ -78,7 +64,7 @@ namespace Timer
             UpdateButtonStates();
         }
 
-        /// <summary>Handles the Reset button: sets the display back to "00:00:00".</summary>
+        /// <summary>Reset button.</summary>
         private void Reset_Click(object sender, EventArgs e)
         {
             _engine.Reset();
@@ -86,10 +72,7 @@ namespace Timer
             UpdateButtonStates();
         }
 
-        /// <summary>
-        /// Enables or disables each button so that only the actions that make sense
-        /// for the current state are available. Marshals to the UI thread if needed.
-        /// </summary>
+        /// <summary>Enables or disables buttons to match the current state.</summary>
         private void UpdateButtonStates()
         {
             if (InvokeRequired)
@@ -108,7 +91,6 @@ namespace Timer
         }
 
         // Empty handlers kept only so the Windows Forms designer does not error.
-        /// <summary>Unused designer handler.</summary>
         private void timer1_Tick(object sender, EventArgs e) { }
         private void timer2_Tick(object sender, EventArgs e) { }
         private void panel1_Paint(object sender, PaintEventArgs e) { }
